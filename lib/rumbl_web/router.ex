@@ -18,7 +18,7 @@ defmodule RumblWeb.Router do
 
     get "/users", UserController, :index
     get "/users/:id", UserController, :show
-    get "/", PageCOntroller, :index
+    get "/", PageController, :index
   end
 
   # Other scopes may use custom stacks.
